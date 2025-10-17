@@ -18,21 +18,21 @@ class PlayerViewController: UIViewController {
         return imageView
     }()
 
-    private let songNameLabel: UILabel = {
+    let songNameLabel: UILabel = {
         let label = UILabel()
         label.textAlignment = .center
         label.numberOfLines = 0 // line wrap
         return label
     }()
 
-    private let artistNameLabel: UILabel = {
+    let artistNameLabel: UILabel = {
         let label = UILabel()
         label.textAlignment = .center
         label.numberOfLines = 0 // line wrap
         return label
     }()
 
-    private let albumNameLabel: UILabel = {
+    let albumNameLabel: UILabel = {
         let label = UILabel()
         label.textAlignment = .center
         label.numberOfLines = 0 // line wrap
