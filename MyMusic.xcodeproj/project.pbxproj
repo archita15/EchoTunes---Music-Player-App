@@ -20,7 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		83CEC37824376D4A00188BF6 /* MyMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		83CEC37824376D4A00188BF6 /* EchoTunes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EchoTunes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83CEC37B24376D4A00188BF6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		83CEC37D24376D4A00188BF6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		83CEC37F24376D4A00188BF6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,7 +48,7 @@
 		83CEC36F24376D4A00188BF6 = {
 			isa = PBXGroup;
 			children = (
-				83CEC37A24376D4A00188BF6 /* MyMusic */,
+				83CEC37A24376D4A00188BF6 /* EchoTunes */,
 				83CEC37924376D4A00188BF6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,12 +56,12 @@
 		83CEC37924376D4A00188BF6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				83CEC37824376D4A00188BF6 /* MyMusic.app */,
+				83CEC37824376D4A00188BF6 /* EchoTunes.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		83CEC37A24376D4A00188BF6 /* MyMusic */ = {
+		83CEC37A24376D4A00188BF6 /* EchoTunes */ = {
 			isa = PBXGroup;
 			children = (
 				83CEC39024376D8600188BF6 /* song1.mp3 */,
@@ -76,15 +76,15 @@
 				83CEC38924376D4B00188BF6 /* Info.plist */,
 				83CEC3962437702600188BF6 /* PlayerViewController.swift */,
 			);
-			path = MyMusic;
+			path = EchoTunes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		83CEC37724376D4A00188BF6 /* MyMusic */ = {
+		83CEC37724376D4A00188BF6 /* EchoTunes */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 83CEC38C24376D4B00188BF6 /* Build configuration list for PBXNativeTarget "MyMusic" */;
+			buildConfigurationList = 83CEC38C24376D4B00188BF6 /* Build configuration list for PBXNativeTarget "EchoTunes" */;
 			buildPhases = (
 				83CEC37424376D4A00188BF6 /* Sources */,
 				83CEC37524376D4A00188BF6 /* Frameworks */,
@@ -94,9 +94,9 @@
 			);
 			dependencies = (
 			);
-			name = MyMusic;
-			productName = MyMusic;
-			productReference = 83CEC37824376D4A00188BF6 /* MyMusic.app */;
+			name = EchoTunes;
+			productName = EchoTunes;
+			productReference = 83CEC37824376D4A00188BF6 /* EchoTunes.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -114,7 +114,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CEC37324376D4A00188BF6 /* Build configuration list for PBXProject "MyMusic" */;
+			buildConfigurationList = 83CEC37324376D4A00188BF6 /* Build configuration list for PBXProject "EchoTunes" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -127,7 +127,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				83CEC37724376D4A00188BF6 /* MyMusic */,
+				83CEC37724376D4A00188BF6 /* EchoTunes */,
 			);
 		};
 /* End PBXProject section */
@@ -302,12 +302,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3798Z36XLV;
-				INFOPLIST_FILE = MyMusic/Info.plist;
+				INFOPLIST_FILE = EchoTunes/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.asndigital.MyMusic;
+				PRODUCT_BUNDLE_IDENTIFIER = com.asndigital.EchoTunes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -320,12 +320,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3798Z36XLV;
-				INFOPLIST_FILE = MyMusic/Info.plist;
+				INFOPLIST_FILE = EchoTunes/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.asndigital.MyMusic;
+				PRODUCT_BUNDLE_IDENTIFIER = com.asndigital.EchoTunes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -335,7 +335,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		83CEC37324376D4A00188BF6 /* Build configuration list for PBXProject "MyMusic" */ = {
+		83CEC37324376D4A00188BF6 /* Build configuration list for PBXProject "EchoTunes" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CEC38A24376D4B00188BF6 /* Debug */,
@@ -344,7 +344,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CEC38C24376D4B00188BF6 /* Build configuration list for PBXNativeTarget "MyMusic" */ = {
+		83CEC38C24376D4B00188BF6 /* Build configuration list for PBXNativeTarget "EchoTunes" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CEC38D24376D4B00188BF6 /* Debug */,
