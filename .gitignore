@@ -1,1 +1,72 @@
 MyMusic/*.mp3
+
+MyMusic/Assets.xcassets/cover1.imageset/*.jpg
+MyMusic/Assets.xcassets/cover2.imageset/*.png
+
+
+
+#################################
+# Xcode & iOS Project Ignored Files
+#################################
+
+# Xcode
+DerivedData/
+build/
+Build/
+*.xcuserstate
+*.xcscmblueprint
+
+# Workspaces
+*.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
+
+# Swift Package Manager
+.swiftpm/
+Packages/
+Package.resolved
+
+# CocoaPods (if added later)
+Pods/
+*.xcworkspace
+
+#################################
+# Asset protection (large media)
+#################################
+
+# Prevent heavy image/audio/video files
+*.mp3
+*.wav
+*.mp4
+*.mov
+*.avi
+*.flac
+*.zip
+*.tar
+*.dmg
+*.ipa
+*.xcarchive
+*.framework
+
+# If you want to include small icons,
+# put them in a compressed webp format
+*.jpg
+*.jpeg
+*.png
+
+# (Optional) allow tiny icons if needed
+# !Assets.xcassets/**/*.png
+# !Assets.xcassets/**/*.jpg
+
+#################################
+# System files
+#################################
+
+.DS_Store
+Thumbs.db
+*.swp
+*.lock
+
+#################################
+# Logs / Temporary
+#################################
+*.log
